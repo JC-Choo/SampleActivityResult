@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btShowSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show second Activity" />
+
+    <Button
+        android:id="@+id/btRequestLocationPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request location permission" />
+
+    <Button
+        android:id="@+id/btShowFragmentSample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff91d4fa"
+        android:text="Show fragment Sample" />
+</LinearLayout>
