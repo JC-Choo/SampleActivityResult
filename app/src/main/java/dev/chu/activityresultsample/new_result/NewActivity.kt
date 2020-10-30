@@ -74,7 +74,7 @@ class NewActivity : AppCompatActivity() {
         toast("Got picture: $bitmap")
     }
 
-    val getContent = registerForActivityResult(
+    private val getContent = registerForActivityResult(
         ActivityResultContracts.GetContent()
     ) { uri ->
         toast("Got image: $uri")
