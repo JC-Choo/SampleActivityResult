@@ -17,7 +17,6 @@
             </intent-filter>
         </activity>
 
-
         <activity android:name=".month.MonthActivity" />
         <activity android:name=".month.NumberActivity" />
         <activity android:name=".picture.PictureActivity" />
