@@ -7,12 +7,21 @@
     tools:context=".picture.PictureActivity">
 
     <Button
-        android:id="@+id/choose"
-        android:layout_width="match_parent"
+        android:id="@+id/imageGallery"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="choose a picture"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="picture"
+        app:layout_constraintEnd_toStartOf="@id/mediaGallery"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/mediaGallery"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="gallery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imageGallery"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -23,6 +32,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/choose" />
+        app:layout_constraintTop_toBottomOf="@id/imageGallery" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
